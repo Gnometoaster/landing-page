@@ -134,9 +134,41 @@ flex: 1 1 250px;
     font-weight: bold;
     align-self: flex-end;
     font-size: 20px;
-    padding-right: 190px;
+    padding-right: 290px;
 }
 
 .cta {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-div {
+    height: 50%;
+    width: 75%;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around   ;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.cta-head {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cta-btn {
+    color: white;
+}
+
+.cta-btn button {
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border-style: solid;
+    font-size: 16px;
 }
